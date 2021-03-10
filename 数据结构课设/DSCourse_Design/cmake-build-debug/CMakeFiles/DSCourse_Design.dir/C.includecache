@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/justinxiang/Desktop/C++/DSCourse_Design/CNFfileparser.c
+define.h
+/Users/justinxiang/Desktop/C++/DSCourse_Design/define.h
+
+/Users/justinxiang/Desktop/C++/DSCourse_Design/define.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+time.h
+-
+
+/Users/justinxiang/Desktop/C++/DSCourse_Design/main.c
+define.h
+/Users/justinxiang/Desktop/C++/DSCourse_Design/define.h
+

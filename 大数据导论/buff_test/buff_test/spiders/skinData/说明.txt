@@ -1,0 +1,20 @@
+allWeapons中为所有武器和手套的类型，allWeaponsEn中为对应的英文名。
+
+Skins文件夹中是所有饰品的基本信息及数据，不同文件按类型划分，其对应的中文名如下：
+	name：饰品名
+	id：饰品id（唯一）
+	exterior：外观，即俗称的磨损
+	quality：类别
+	rarity：品质
+	weapon：武器种类
+	buy_max_price：最高求购价
+	buy_num：总求购数
+	sell_min_price：最低售价
+	sell_reference_price：参考售价
+
+sellOrder文件夹中是所有饰品的售价数据，不同文件按类型划分，以id、日期（date）、售价（price）格式储存，其中日期为时间戳格式，使用前需进行转换。
+注：因为采集时间的不同，sellOrder中的价格数据与Skins中的数据有所出入，以sellOrder中为准。
+
+price_history文件夹中是所有饰品过去90天内的成交价格，均存放在同一文件中，格式同上
+
+以上所有文件格式均为json

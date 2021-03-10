@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/justinxiang/Desktop/C++/DSCourse_Design/BinaryPuzzle.cpp
+define.h
+/Users/justinxiang/Desktop/C++/DSCourse_Design/define.h
+
+/Users/justinxiang/Desktop/C++/DSCourse_Design/CNFfileparser.cpp
+define.h
+/Users/justinxiang/Desktop/C++/DSCourse_Design/define.h
+
+/Users/justinxiang/Desktop/C++/DSCourse_Design/Dpllsolver.cpp
+define.h
+/Users/justinxiang/Desktop/C++/DSCourse_Design/define.h
+
+/Users/justinxiang/Desktop/C++/DSCourse_Design/define.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+time.h
+-
+
+/Users/justinxiang/Desktop/C++/DSCourse_Design/main.cpp
+define.h
+/Users/justinxiang/Desktop/C++/DSCourse_Design/define.h
+
